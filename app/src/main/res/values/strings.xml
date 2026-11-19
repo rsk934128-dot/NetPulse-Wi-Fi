@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">NetPulse Wi-Fi</string>
+
+    <!-- Navigation -->
+    <string name="nav_scanner">Scanner</string>
+    <string name="nav_channels">Channels</string>
+    <string name="nav_security">Security</string>
+
+    <!-- Header & Active Connection -->
+    <string name="header_subtitle">RF Telemetry &amp; Security Analyzer</string>
+    <string name="action_scan_now">Scan</string>
+    <string name="action_scanning">Scanning…</string>
+    <string name="active_connection_label">ACTIVE LINK</string>
+    <string name="active_not_connected">Not connected to Wi-Fi</string>
+    <string name="active_not_connected_hint">Select a trusted network below or open system Wi-Fi settings.</string>
+    <string name="open_wifi_settings">Wi-Fi Settings</string>
+    <string name="open_location_settings">Location Settings</string>
+
+    <!-- Permissions & Hardware Warnings -->
+    <string name="permission_title">Wi-Fi Scan Permission Required</string>
+    <string name="permission_rationale">Android requires Location access to read nearby Wi-Fi scan results (SSIDs, signal strength, and channels). NetPulse analyzes telemetry strictly on-device.</string>
+    <string name="permission_grant_button">Grant Scan Access</string>
+    <string name="wifi_disabled_title">Wi-Fi Radio Is Off</string>
+    <string name="wifi_disabled_desc">Enable Wi-Fi in system settings to scan nearby access points and inspect channel congestion.</string>
+    <string name="location_disabled_title">Location Services Off</string>
+    <string name="location_disabled_desc">Android 10+ requires device Location Services to be enabled before returning nearby Wi-Fi scan results.</string>
+    <string name="scan_throttled_notice">Showing cached scan results (Android limits active foreground scans to 4 per 2 minutes).</string>
+
+    <!-- Filters & Empty State -->
+    <string name="filter_all">All</string>
+    <string name="filter_2_4_ghz">2.4 GHz</string>
+    <string name="filter_5_ghz">5 / 6 GHz</string>
+    <string name="filter_strong">Strong</string>
+    <string name="filter_at_risk">At-Risk</string>
+    <string name="empty_scan_title">No Access Points Found</string>
+    <string name="empty_scan_desc">Tap Scan to search for nearby Wi-Fi networks, or verify Wi-Fi and Location are active on this device.</string>
+    <string name="hidden_ssid_label">Hidden Network</string>
+
+    <!-- Network Detail & Single-Attempt Connect Sheet -->
+    <string name="detail_bssid">BSSID</string>
+    <string name="detail_band">Band</string>
+    <string name="detail_channel">Channel</string>
+    <string name="detail_frequency">Frequency</string>
+    <string name="detail_signal">Signal (RSSI)</string>
+    <string name="detail_security">Protocol</string>
+    <string name="connect_section_title">Connect to This Network</string>
+    <string name="connect_password_label">Network Password (Passphrase)</string>
+    <string name="connect_password_hint">Enter your authorized network passphrase</string>
+    <string name="connect_button">Connect</string>
+    <string name="connect_open_button">Connect to Open Network</string>
+    <string name="disconnect_button">Release App Network</string>
+    <string name="connect_legacy_notice">On Android 9 and below, connect through system Wi-Fi settings for optimal stability.</string>
+    <string name="connect_status_connecting">Requesting system Wi-Fi connection…</string>
+    <string name="connect_status_connected">Connected to %1$s</string>
+    <string name="connect_status_failed">Connection unavailable or cancelled by user/system.</string>
+
+    <!-- Channels Screen -->
+    <string name="rssi_history_title">Real-Time Signal (RSSI)</string>
+    <string name="rssi_history_empty">Connect to a Wi-Fi network to stream real-time RSSI dBm changes over time.</string>
+    <string name="channels_24_title">2.4 GHz Spectrum (Channels 1–14)</string>
+    <string name="channels_5_title">5 GHz Spectrum Distribution</string>
+    <string name="channels_recommendation_label">Recommended Cleanest Channel</string>
+    <string name="channels_no_data">Run a Wi-Fi scan to map channel overlap and signal arcs.</string>
+
+    <!-- Security Screen -->
+    <string name="security_overview_title">Nearby Network Posture</string>
+    <string name="security_passphrase_title">Router Passphrase Auditor</string>
+    <string name="security_passphrase_subtitle">Test the strength of a passphrase you plan to configure on your own Wi-Fi router. Everything stays strictly offline.</string>
+    <string name="security_passphrase_input_label">Candidate Router Passphrase</string>
+    <string name="security_passphrase_placeholder">e.g. River-Lantern-94-Pine!</string>
+    <string name="security_best_practices_title">Router Hardening Checklist</string>
+</resources>

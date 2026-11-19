@@ -1,0 +1,6 @@
+{
+  "name": "NetPulse Wi-Fi",
+  "description": "Wi-Fi signal analyzer, channel congestion visualizer, security protocol auditor, and single-network connection manager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
